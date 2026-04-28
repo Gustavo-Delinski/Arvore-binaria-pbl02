@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         BinarySearchTree rankingTree = new BinarySearchTree();
-        carregarJogadores(rankingTree, "src/players.csv");
+        carregarJogadores(rankingTree, "Arvore-binaria-pbl02/players.csv");
 
         TreeVisualizer visualizador = new TreeVisualizer(rankingTree);
         visualizador.exibir();
